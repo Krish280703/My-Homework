@@ -12,6 +12,7 @@ public class Java_Homework_3 {
         if (choice.equals("1")) {
             System.out.println("What month should I print (1 to 12) : ");
             String Month = OBJECT.nextLine();
+            Month.toLowerCase();
             switch (Month){
                 case "1":
                     System.out.println("First Month is JANUARY");
